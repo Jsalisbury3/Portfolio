@@ -2,7 +2,6 @@
 
 // configure
 $from = '<demo@domain.com>';
-// $sendTo = 'Demo contact form <jordansalisbury5@gmail.com>'; // Add Your Email
 $sendTo = '<jordansalisbury5@gmail.com>'; 
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
