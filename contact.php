@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'Demo contact form <demo@domain.com>';
+$from = '<demo@domain.com>';
 // $sendTo = 'Demo contact form <jordansalisbury5@gmail.com>'; // Add Your Email
 $sendTo = '<jordansalisbury5@gmail.com>'; 
 $subject = 'New message from contact form';
@@ -21,7 +21,6 @@ try
             $emailText .= "$fields[$key]: $value\n";
         }
     }
-
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
         'From: ' . $from,
         'Reply-To: ' . $from,
