@@ -178,13 +178,13 @@ $(window).on("load",function (){
                     if (messageAlert && messageText) {
                         $('#contact-form').find('.messages').html(alertBox);
                         $('#contact-form')[0].reset();
-                        $('#sendButton').text('Sent')
+                        $('#sendButton').text('Send Message')
                     }
                 },
                 error: function(err){
                     var alertBox = '<div class="alert alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+ "Unable to Send Email" + '</div>';
                     $('#contact-form').find('.messages').html(alertBox);
-                    $('#sendButton').text('Sent')
+                    $('#sendButton').text('Send Message')
                 }
             });
             return false;
