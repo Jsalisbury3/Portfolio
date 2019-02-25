@@ -107,7 +107,9 @@ span, a, a:hover {
 }
 
 .section-padding {
-  padding: 100px 0;
+  /* padding: 100px 0; */
+  padding:174px 0;
+
 }
 
 .section-head {
@@ -905,7 +907,7 @@ footer {
 }
 footer .social a {
   color: #777;
-  font-size: 92px;
+  font-size: 45px;
   margin: -34px 24px;
 }
 footer p {
@@ -1041,9 +1043,17 @@ footer p {
   height:25%;
 }
 
+.sourceLink{
+  color:white
+}
 
+.sourceLink:hover{
+  color:blue
+}
 
-
+.active{
+  color:white!important;
+}
 
 
 
