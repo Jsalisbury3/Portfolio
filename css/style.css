@@ -1056,6 +1056,17 @@ footer p {
   color:white!important;
 }
 
+.backgroundColorRed{
+  background-color:red;
+}
+
+@media only screen and (min-width:400px) and (max-width:991px){
+  .my_picture{
+    position: relative;
+    left: 36%;
+    width: 35%;
+  }
+}
 
 
 /*# sourceMappingURL=style.css.map */

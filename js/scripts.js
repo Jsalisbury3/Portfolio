@@ -182,7 +182,7 @@ $(window).on("load",function (){
                     }
                 },
                 error: function(err){
-                    var alertBox = '<div class="alert alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+ "Unable to Send Email" + '</div>';
+                    var alertBox = '<div class="backgroundColorRed alert alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+ "There was a problem connecting to the server" + '</div>';
                     $('#contact-form').find('.messages').html(alertBox);
                     $('#sendButton').text('Send Message')
                 }
