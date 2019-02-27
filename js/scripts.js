@@ -161,8 +161,8 @@ $(window).on("load",function (){
     // contact form validator
     $('#contact-form').validator()
     $('#contact-form').on('submit', function (e) {
-        e.preventDefault();
-        // if (!e.isDefaultPrevented()) {
+        // e.preventDefault();
+        if (!e.isDefaultPrevented()) {
             var url = "contact.php";
             $('#sendButton').text('Sending')
             $.ajax({
@@ -188,14 +188,8 @@ $(window).on("load",function (){
                 }
             });
             return false;
-        // }
+        }
     });
-
-
-
-
-
-
     // $('#contact-form').on('submit', function (e) {
     //     if (!e.isDefaultPrevented()) {
     //         var url = "contact.php";
