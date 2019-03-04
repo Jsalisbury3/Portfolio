@@ -1044,8 +1044,10 @@ footer p {
 
 
 .my_picture{
-  width:25%;
-  height:25%;
+  width: 33%;
+  height: 39%;
+  top: 95px;
+  position: relative;
 }
 
 .sourceLink{
@@ -1070,6 +1072,7 @@ footer p {
     position: relative;
     left: 36%;
     width: 35%;
+    top: -57px;
   }
 }
 
